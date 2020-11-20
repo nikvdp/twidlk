@@ -71,7 +71,6 @@ keyRepeatDelay 100
      ORMO it
      RRMO <left>
      OMMO et
-     RMMO <A-left>
    N+RMMO <F11>
      MMMO p
      LMMO ]
@@ -88,8 +87,6 @@ keyRepeatDelay 100
      RRLO <up>
      MRLO wi
      OMLO er
-     RMLO <4-left>
-     MMLO <SA-left>
      LMLO \
      OLLO or
      RLLO -
@@ -112,7 +109,6 @@ keyRepeatDelay 100
      RLOR %
      MLOR ou
      LLOR ~
-   C+OOOR <4-a>
      OORR an
    N+OORR <numlock>
      RORR \<
@@ -142,7 +138,6 @@ keyRepeatDelay 100
      RROM <right>
      MROM ch
      OMOM he
-     RMOM <A-right>
      MMOM q
      LMOM _
      OLOM ho
@@ -174,8 +169,6 @@ keyRepeatDelay 100
      OROL is
      RROL <down>
      OMOL es
-     RMOL <4-right>
-     MMOL <SA-right>
      OLOL so
      RLOL /
      MLOL z
@@ -193,9 +186,29 @@ keyRepeatDelay 100
      LOLL :
      MMLL <S4-right><backspace>
      LLLL @
-     RRRR <4-v>
-     RROR <4-c>
+# mac/ipad shortcuts
      ROMR <4-x>
-#    RRRR paste
-#    RROR copy
-#    ROMR cut
+     RROR <4-c>
+     RRRR <4-v>
+     RMLO <4-left>
+     RMOL <4-right>
+     RMMO <A-left>
+     RMOM <A-right>
+     MMLO <SA-left>
+     MMOL <SA-right>
+     RRMM <4-a>
+     RORM <4-down>
+     ROLM <4-up>
+# pc shortcuts
+   S+ROMR <C-x>
+   S+RROR <C-c>
+   S+RRRR <C-v>
+   S+RMLO <home>
+   S+RMOL <end>
+   S+RMMO <C-left>
+   S+RMOM <C-right>
+   S+MMLO <SC-left>
+   S+MMOL <SC-right>
+   S+RRMM <C-a>
+   S+RORM <C-home>
+   S+ROLM <C-end>
