@@ -7,9 +7,15 @@ stickyNum 1
 stickyShift 0
 hapticFeedback 0
 sleepTimeout 600
+# 10496 = escape
+# 19200 = pageup  (i think)
+# 19968 = pagedown (i think)
 mouseLeftClickAction 10496
-mouseMiddleClickAction 19200
-mouseRightClickAction 19968
+mouseMiddleClickAction 10496
+mouseRightClickAction 10496
+#mouseLeftClickAction 10496
+#mouseMiddleClickAction 19200
+#mouseRightClickAction 19968
 mouseAccelFactor 6
 keyRepeatDelay 100
      ROOO <backspace>
