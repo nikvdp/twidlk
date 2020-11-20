@@ -193,4 +193,10 @@ keyRepeatDelay 100
      LOLL :
      MMLL <S4-right><backspace>
      LLLL @
+     RRRR <4-v>
+     RROR <4-c>
+     ROMR <4-x>
+#    RRRR paste
+#    RROR copy
+#    ROMR cut
    C+MOLL <4-x>
