@@ -1,3 +1,22 @@
+# nik tl;dr
+
+(todo: do actual docs and clean this repo up. this is currently just hacks to get it working)
+
+- `./twiddler.sh twiddler.cfg` 
+
+  twiddler.txt gets generated based on contents of
+  twiddler.cfg
+
+- `./twiddler.sh twiddler.txt` 
+  twiddler.cfg gets generated based on contents of
+  twiddler.txt
+    
+
+changes made:
+- added hacktastic unreverse.py to fix weird issue where L and R get transposed in the txt output
+- added a twiddler.sh wrapper to run the txt file through the reverse in the correct order
+
+
 Twidlk
 ------
 
