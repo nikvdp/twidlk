@@ -29,7 +29,6 @@ keyRepeatDelay 100
      RROO 3
    N+RROO <F1>
      MROO c
-   N+MROO <4-c>
      LROO -
      OMOO e
    N+OMOO <A-right>
@@ -44,7 +43,6 @@ keyRepeatDelay 100
      MLOO u
      LLOO .
    C+LOOO <4-tab>
-   C+MROO <4-c>
      OORO n
    N+OORO <pageup>
      RORO 6
@@ -64,7 +62,6 @@ keyRepeatDelay 100
      RLRO ^
      MLRO of
      LLRO !
-   C+RRRO <4-c>
      OOMO t
    N+OOMO <left>
      ROMO 5
@@ -92,15 +89,13 @@ keyRepeatDelay 100
      MRLO wi
      OMLO er
      RMLO <4-left>
-     MMLO <SA-left><backspace>
+     MMLO <SA-left>
      LMLO \
      OLLO or
      RLLO -
    N+RLLO <F12>
      MLLO v
-   N+MLLO <4-v>
      LLLO ;
-   C+MLLO <4-v>
    S+RRMO <pageup>
      OOOR a
    N+OOOR <pagedown>
@@ -180,7 +175,7 @@ keyRepeatDelay 100
      RROL <down>
      OMOL es
      RMOL <4-right>
-     MMOL <SA-right><backspace>
+     MMOL <SA-right>
      OLOL so
      RLOL /
      MLOL z
@@ -195,7 +190,6 @@ keyRepeatDelay 100
    N+OOLL <scrolllock>
      ROLL =
      MOLL x
-   N+MOLL <4-x>
      LOLL :
      MMLL <S4-right><backspace>
      LLLL @
@@ -205,4 +199,3 @@ keyRepeatDelay 100
 #    RRRR paste
 #    RROR copy
 #    ROMR cut
-   C+MOLL <4-x>
