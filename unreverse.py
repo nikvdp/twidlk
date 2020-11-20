@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import sys
+import os
 import re
 
 col = re.compile(
@@ -8,6 +9,8 @@ col = re.compile(
 
 for line in sys.stdin.readlines():
     match = col.match(line)
+    if line.startswith("#"):
+        continue
     if match:
         grouped_line = list(match.groups())
         all_keys = grouped_line[1:-1]
