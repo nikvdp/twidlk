@@ -199,6 +199,7 @@ keyRepeatDelay 100
      RRMM <4-a>
      RORM <4-down>
      ROLM <4-up>
+     LMLM <4-z>
 # pc shortcuts
    S+ROMR <C-x>
    S+RROR <C-c>
@@ -212,3 +213,4 @@ keyRepeatDelay 100
    S+RRMM <C-a>
    S+RORM <C-home>
    S+ROLM <C-end>
+   S+LMLM <C-z>
