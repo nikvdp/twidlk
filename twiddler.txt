@@ -42,7 +42,6 @@ keyRepeatDelay 100
    N+RLOO <F3>
      MLOO u
      LLOO .
-   C+LOOO <4-tab>
      OORO n
    N+OORO <pageup>
      RORO 6
@@ -144,7 +143,6 @@ keyRepeatDelay 100
      RLOM *
      MLOM qu
      LLOM #
-   C+OOOM <4-h>
      OORM hn
      MRRM if
      OOMM th
@@ -173,7 +171,6 @@ keyRepeatDelay 100
      RLOL /
      MLOL z
      LLOL $
-   C+MLOL <4-z>
      OORL ns
      OOML st
      MOML ly
@@ -200,6 +197,7 @@ keyRepeatDelay 100
      RORM <4-down>
      ROLM <4-up>
      LMLM <4-z>
+   C+LOOO <4-tab>
 # pc shortcuts
    S+ROMR <C-x>
    S+RROR <C-c>
