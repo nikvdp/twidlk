@@ -201,7 +201,7 @@ keyRepeatDelay 100
    # select to start of line
      MMLL <S4-left>
    # select to end of line
-     MMLR <S4-right>
+     MMLM <S4-right>
 # pc shortcuts
    S+ROMR <C-x>
    S+RROR <C-c>
@@ -219,4 +219,4 @@ keyRepeatDelay 100
    # select to start of line
    S+MMLL <SC-home>
    # select to end of line
-   S+MMLR <SC-end>
+   S+MMLM <SC-end>
