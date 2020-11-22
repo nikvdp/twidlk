@@ -181,7 +181,7 @@ keyRepeatDelay 100
      ROLL =
      MOLL x
      LOLL :
-     MMLL <S4-right><backspace>
+     MMLL <S4-right>
      LLLL @
 # mac/ipad shortcuts
      ROMR <4-x>
