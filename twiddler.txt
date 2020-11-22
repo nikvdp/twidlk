@@ -181,7 +181,6 @@ keyRepeatDelay 100
      ROLL =
      MOLL x
      LOLL :
-     MMLL <S4-right>
      LLLL @
 # mac/ipad shortcuts
      ROMR <4-x>
@@ -197,7 +196,12 @@ keyRepeatDelay 100
      RORM <4-down>
      ROLM <4-up>
      LMLM <4-z>
+   # cmd-tab, can't use shift-tab cause i need that for roam
    C+LOOO <4-tab>
+   # select to start of line
+     MMLL <S4-left>
+   # select to end of line
+     MMLR <S4-right>
 # pc shortcuts
    S+ROMR <C-x>
    S+RROR <C-c>
@@ -212,3 +216,7 @@ keyRepeatDelay 100
    S+RORM <C-home>
    S+ROLM <C-end>
    S+LMLM <C-z>
+   # select to start of line
+   S+MMLL <SC-home>
+   # select to end of line
+   S+MMLR <SC-end>
