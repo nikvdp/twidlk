@@ -6,10 +6,11 @@ import re
 col = re.compile(
     r"(.*)([LRMO])([LRMO])([LRMO])([LRMO])(.*)"
 )
+comment_re = re.compile('^[ \t]*#')
 
 for line in sys.stdin.readlines():
     match = col.match(line)
-    if line.startswith("#"):
+    if comment_re.match(line):
         continue
     if match:
         grouped_line = list(match.groups())
